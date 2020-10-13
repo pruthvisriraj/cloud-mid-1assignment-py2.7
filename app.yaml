@@ -1,0 +1,7 @@
+runtime: python27
+threadsafe: false
+api_version: 1
+
+handlers:
+- url: /.*
+  script: code.py
